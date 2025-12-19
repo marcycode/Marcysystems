@@ -280,7 +280,7 @@ export default function Pricing() {
             Not Sure Which Package Fits?
           </h2>
           <p className="text-body-lg text-neutral-600 mb-10 max-w-2xl mx-auto">
-            Book a free consultation and we'll help you choose the right solution for your business.
+            Book a free consultation and we&apos;ll help you choose the right solution for your business.
           </p>
           <Link href="/contact" className="btn-primary">
             Request a Quote

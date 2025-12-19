@@ -117,7 +117,7 @@ export default function Home() {
               </div>
               <h3 className="heading-md mb-4 text-neutral-900">Book a Free Consult</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Tell us about your business and goals. We'll discuss your needs and recommend the best solution.
+                Tell us about your business and goals. We&apos;ll discuss your needs and recommend the best solution.
               </p>
             </div>
 
@@ -127,7 +127,7 @@ export default function Home() {
               </div>
               <h3 className="heading-md mb-4 text-neutral-900">We Build It</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Our team gets to work building your solution. You'll receive updates and can request revisions along the way.
+                Our team gets to work building your solution. You&apos;ll receive updates and can request revisions along the way.
               </p>
             </div>
 
@@ -189,7 +189,7 @@ export default function Home() {
               </svg>
               <div>
                 <h3 className="font-semibold mb-2 text-lg">Ongoing Support</h3>
-                <p className="text-neutral-400">We're here when you need us</p>
+                <p className="text-neutral-400">We&apos;re here when you need us</p>
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
             Ready to Grow Your Business?
           </h2>
           <p className="text-body-lg text-neutral-600 mb-10 max-w-2xl mx-auto">
-            Let's discuss how we can help you save time, automate workflows, and grow your revenue.
+            Let&apos;s discuss how we can help you save time, automate workflows, and grow your revenue.
           </p>
           <Link href="/contact" className="btn-primary">
             Get Started Today

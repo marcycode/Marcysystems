@@ -92,7 +92,7 @@ export default function Contact() {
                 Thank You!
               </h1>
               <p className="text-body-lg text-neutral-600 mb-10">
-                We've received your message and will get back to you within 24 hours.
+                We&apos;ve received your message and will get back to you within 24 hours.
               </p>
               <button
                 onClick={() => setSubmitted(false)}
@@ -124,7 +124,7 @@ export default function Contact() {
                 </div>
                 <h3 className="heading-md mb-4 text-neutral-900">We Schedule a Call</h3>
                 <p className="text-neutral-600 leading-relaxed">
-                  Within 24 hours, we'll reach out to schedule a free consultation call to discuss your project.
+                  Within 24 hours, we&apos;ll reach out to schedule a free consultation call to discuss your project.
                 </p>
               </div>
               <div className="text-center">
@@ -150,10 +150,10 @@ export default function Contact() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="heading-xl mb-6 text-neutral-900">
-              Let's Build Something Great
+              Let&apos;s Build Something Great
             </h1>
             <p className="text-body-lg text-neutral-600">
-              Book a free consultation and let's discuss how we can help your business grow.
+              Book a free consultation and let&apos;s discuss how we can help your business grow.
             </p>
           </div>
         </div>

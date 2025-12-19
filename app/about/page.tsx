@@ -62,7 +62,7 @@ export default function About() {
                 Our mission is to bridge the gap between powerful technology and practical business needs. We build modern digital solutions—websites, web apps, and AI automations—that save time, grow revenue, and eliminate busywork, all without the complexity and cost of enterprise solutions.
               </p>
               <p>
-                We work with small business owners, local service providers, founders, and early-stage startups who need reliable digital solutions that deliver real results. Fast delivery, clear pricing, and solutions that just work—that's what we're all about.
+                We work with small business owners, local service providers, founders, and early-stage startups who need reliable digital solutions that deliver real results. Fast delivery, clear pricing, and solutions that just work—that&apos;s what we&apos;re all about.
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function About() {
                 <div>
                   <h3 className="heading-md mb-3 text-neutral-900">Discovery & Planning</h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    We start with a free consultation to understand your business, goals, and challenges. Together, we'll define the scope and create a clear plan.
+                    We start with a free consultation to understand your business, goals, and challenges. Together, we&apos;ll define the scope and create a clear plan.
                   </p>
                 </div>
               </div>
@@ -122,7 +122,7 @@ export default function About() {
                 <div>
                   <h3 className="heading-md mb-3 text-neutral-900">Design & Development</h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    Our team builds your solution using modern technologies and best practices. You'll receive regular updates and can request revisions throughout the process.
+                    Our team builds your solution using modern technologies and best practices. You&apos;ll receive regular updates and can request revisions throughout the process.
                   </p>
                 </div>
               </div>
@@ -227,7 +227,7 @@ export default function About() {
             Ready to Work Together?
           </h2>
           <p className="text-body-lg text-neutral-600 mb-10 max-w-2xl mx-auto">
-            Let's discuss how we can help your business grow with modern digital solutions.
+            Let&apos;s discuss how we can help your business grow with modern digital solutions.
           </p>
           <Link href="/contact" className="btn-primary">
             Get in Touch
