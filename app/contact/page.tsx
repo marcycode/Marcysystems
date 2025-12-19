@@ -300,7 +300,7 @@ export default function Contact() {
               </div>
               <h3 className="heading-md mb-4 text-neutral-900">We Schedule a Call</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Within 24 hours, we'll reach out to schedule a free consultation call to discuss your project.
+                Within 24 hours, we&apos;ll reach out to schedule a free consultation call to discuss your project.
               </p>
             </div>
             <div className="text-center">
