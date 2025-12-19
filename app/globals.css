@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-neutral-900 antialiased bg-white;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-neutral-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-neutral-800 transition-all duration-300 text-sm tracking-tight;
+    @apply shadow-[0_4px_14px_0_rgba(0,0,0,0.15)] hover:shadow-[0_6px_20px_0_rgba(0,0,0,0.2)];
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-neutral-900 px-8 py-4 rounded-full font-semibold border border-neutral-200 hover:bg-neutral-50 transition-all duration-300 text-sm tracking-tight;
+    @apply shadow-sm hover:shadow-md;
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-neutral-900 px-8 py-4 rounded-full font-semibold border-2 border-neutral-900 hover:bg-neutral-900 hover:text-white transition-all duration-300 text-sm tracking-tight;
+  }
+  
+  .section-padding {
+    @apply py-20 md:py-32;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 sm:px-8 lg:px-12;
+  }
+
+  .heading-xl {
+    @apply text-5xl md:text-7xl lg:text-8xl font-display font-bold tracking-tighter leading-[1.1];
+  }
+
+  .heading-lg {
+    @apply text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tighter leading-[1.1];
+  }
+
+  .heading-md {
+    @apply text-3xl md:text-4xl font-display font-bold tracking-tight leading-tight;
+  }
+
+  .text-body-lg {
+    @apply text-lg md:text-xl text-neutral-600 leading-relaxed;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-neutral-100 p-8 hover:shadow-xl transition-all duration-300;
+    @apply hover:border-neutral-200;
+  }
+}
+
